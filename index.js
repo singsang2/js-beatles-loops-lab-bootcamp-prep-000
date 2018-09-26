@@ -1,6 +1,6 @@
 // add solution here
 function theBeatlesPlay(musicians, inst){
-  var array = new Array([]);
+  var array = [];
   for(let i = 0; i<musicians.length; i++){
     array.push(`${musicians[i]} plays ${inst[i]}`);
   }
@@ -18,8 +18,7 @@ function johnLennonFacts(array){
 }
 
 function iLoveTheBeatles(number){
-  var array = new Array([]);
-  
+  var array = [];
   do {
     array.push("I love the Beatles!");
     ++number;
